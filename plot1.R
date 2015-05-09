@@ -26,7 +26,7 @@ Plot1 <- function() {
   }
 
   #generate plot
-  png("plot1.png")
+  png("plot1.png", width = 480, height = 480)
   df <- Proj1_Data_Munge()
   generatePlot1(df)
   

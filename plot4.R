@@ -42,7 +42,7 @@ Plot4 <- function() {
   }
   
   #generate plot
-  png("plot4.png")
+  png("plot4.png", width = 480, height = 480)
   df <- Proj1_Data_Munge()
   generatePlot4(df)
   
